@@ -1,0 +1,12 @@
+lib/
+├── core/
+│   ├── constants/       # App colors, typography, API URLs
+│   ├── theme/           # Light & Dark theme definitions
+│   └── network/         # Dio/Http API client with interceptors
+├── features/
+│   ├── auth/            # Login, Signup, OTP
+│   ├── catalog/         # Home screen, Categories, Search
+│   ├── product_detail/  # Product view, Swatches, Interactive Size Chart
+│   ├── cart_checkout/   # Cart, Address, Payment Gateway integration
+│   └── profile/         # Orders, Wishlist, User Settings
+└── main.dart            # App entry point with initialization
